@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+	font-family: Helvetica;
+	font-weight: light;
+	font-size: 30px;
+}
+
+.calculator{
+	border-spacing: 25px;
+	background: #fce5a4;
+}
+
+.btn{
+	width: 75px;
+	height: 60px;
+	text-align: center;
+	vertical-align: middle;
+	background: #fabb0f;
+	cursor: pointer;
+	user-select: none;
+}
+
+.btn:active{
+	filter: brightness(1.3);
+}
+
+.act{
+	background: #FF7F50;
+}
+
+.spec{
+	background: #FF8C00;
+}
+
+#input{
+	height: 100px;
+	width: 385px;
+	color: #F5F5F5;
+	background: #292929;
+	font-size: 50px;
+	text-align: right;
+}
